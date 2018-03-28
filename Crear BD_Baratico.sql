@@ -326,7 +326,6 @@ GO
 CREATE TABLE [dbo].[OFERTA](
 	[IdOferta] [int] IDENTITY(1,1) NOT NULL,
 	[IdProducto] [int] NOT NULL,
-	[Precio] [int] NOT NULL,
 	[FechaInicio] [datetime] NOT NULL,
 	[FechaFin] [datetime] NULL,
  CONSTRAINT [PK_OFERTA] PRIMARY KEY CLUSTERED 
